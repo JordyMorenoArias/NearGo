@@ -7,6 +7,7 @@ import { Place } from '../models/place.model';
 @Injectable({
   providedIn: 'root'
 })
+
 export class PlacesService {
   private overpassUrl = "https://overpass-api.de/api/interpreter";
 
