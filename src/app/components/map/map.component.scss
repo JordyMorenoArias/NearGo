@@ -1,0 +1,21 @@
+.map-container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(83, 83, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // Añade estos estilos:
+  position: fixed; // o relative según tu layout
+  top: 0;
+  left: 0;
+}
+
+#map {
+  height: 90% !important;
+  width: 90% !important;
+  max-width: 1200px;
+  max-height: 800px;
+  border-radius: 5px;
+  border: 10px solid white;
+}
